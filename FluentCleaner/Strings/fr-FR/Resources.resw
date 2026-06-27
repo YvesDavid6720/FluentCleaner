@@ -79,7 +79,7 @@
   <data name="DlgBrowsersTitle"><value>Navigateurs en fonctionnement</value></data>
   <data name="DlgBrowsersContinue"><value>Continuer malgré tout</value></data>
   <data name="DlgBrowsersCancel"><value>Annuler</value></data>
-  <data name="DlgBrowsersMessage"><value>Fermer ces programmes pour de meilleurs résultats:\n{0}\n\nles navigateurs ouverts bloquent les fichiers de cache et d'historique — ils ne seront pas traités pendant le nettoyage.</value></data>
+  <data name="DlgBrowsersMessage"><value>Fermer ces programmes pour de meilleurs résultats:\n{0}\n\nLes navigateurs ouverts bloquent les fichiers de cache et d'historique — ils ne seront pas traités pendant le nettoyage.</value></data>
   <data name="DlgWarningTitle"><value>Avertissement de nettoyage</value></data>
   <data name="DlgWarningContinue"><value>Continuer</value></data>
   <data name="DlgWarningCancel"><value>Annuler</value></data>
@@ -130,26 +130,26 @@
   <data name="MenuDonatePayPal.Text"><value>Donner via PayPal</value></data>
   <data name="MenuDonateKoFi.Text"><value>Donner via Ko-fi</value></data>
   <data name="SectionAppearance.Text"><value>Apparence</value></data>
-  <data name="LblTheme.Text"><value>Theme</value></data>
+  <data name="LblTheme.Text"><value>Thème</value></data>
   <data name="LblThemeDesc.Text"><value>Choisissez le look de FluentCleaner sur votre appareil.</value></data>
-  <data name="ThemeSystem.Content"><value>Valeurs par défaut</value></data>
+  <data name="ThemeSystem.Content"><value>Valeur par défaut</value></data>
   <data name="ThemeLight.Content"><value>Clair</value></data>
   <data name="ThemeDark.Content"><value>Foncé</value></data>
   <data name="LblLanguage.Text"><value>Langue</value></data>
   <data name="LblLanguageDesc.Text"><value>Modifier la langue d'affichage. Redémarrage nécessaire pour appliquer les modifications.</value></data>
   <data name="St_LangAuto"><value>Valeurs par défaut du système</value></data>
   <data name="SectionDatabase.Text"><value>Base de données</value></data>
-  <data name="LblDatabaseDesc.Text"><value>Choisissez quelles listes de d'entrées sont chargées pour être nettoyées.</value></data>
+  <data name="LblDatabaseDesc.Text"><value>Choisissez quelles listes d'entrées sont chargées pour être nettoyées.</value></data>
   <data name="LblWinapp2.Text"><value>Winapp2</value></data>
   <data name="BtnUpdateWinapp2.Content"><value>Mise à jour</value></data>
   <data name="LblWinapp3.Text"><value>Winapp3</value></data>
   <data name="LblWinapp3Tag.Text"><value>expérimental</value></data>
   <data name="LblWinapp3Desc.Text"><value>  —  entrées plus agressives, utiliser à vos propres risques.</value></data>
-  <data name="BtnDownloadWinapp3.Content"><value>Charger</value></data>
+  <data name="BtnDownloadWinapp3.Content"><value>Télécharger</value></data>
   <data name="BtnUpdateWinapp3.Content"><value>Mettre à jour</value></data>
   <data name="LblWinappx.Text"><value>Winappx</value></data>
   <data name="LblWinappxTag.Text"><value>logiciels inutiles</value></data>
-  <data name="LblWinappxDesc.Text"><value>  —  AppX / entrées de logiciels inutiles pour le terminal debloater.</value></data>
+  <data name="LblWinappxDesc.Text"><value>  —  AppX / entrées de logiciels inutiles pour le terminal.</value></data>
   <data name="BtnDownloadWinappx.Content"><value>Télécharger</value></data>
   <data name="BtnUpdateWinappx.Content"><value>Mettre à jour</value></data>
   <data name="TxtCustomPath.PlaceholderText"><value>Chemin de base de données personnalisé (.ini)</value></data>
@@ -158,7 +158,7 @@
   <data name="BtnRemovePath.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip"><value>Enlever la base de données personnalisée</value></data>
   <data name="RestartBar.Title"><value>Redémmarage nécessaire</value></data>
   <data name="RestartBar.Message"><value>Veuillez redémarrer FluentCleaner pour charger la base de données mise à jour.</value></data>
-  <data name="SectionPostClean.Text"><value>Taches Post-nettoyage</value></data>
+  <data name="SectionPostClean.Text"><value>Tâches Post-nettoyage</value></data>
   <data name="LblPostCleanDesc.Text"><value>Une commande par ligne - se lance séquentiellement après chaque passe de nettoyage.</value></data>
   <data name="SectionExclusions.Text"><value>Exclusions globales</value></data>
   <data name="LblExclusionsDesc.Text"><value>Les chemins d'accès listés ici ne sont jamais nettoyés — cela remplace toutes les règles de la base de données.</value></data>
@@ -200,7 +200,7 @@
   <data name="St_Downloaded"><value>{0} téléchargé — {1} KB</value></data>
   <data name="St_DownloadFailed"><value>Échec du téléchargement: {0}</value></data>
   <data name="St_FileInfoNotDownloaded"><value>Pas téléchargé</value></data>
-  <data name="St_FileInfo"><value>{0} entr"es  •  {1} KB  •  {2}</value></data>
+  <data name="St_FileInfo"><value>{0} entrées  •  {1} KB  •  {2}</value></data>
   <data name="St_UpdateAvailable"><value>Mise à jour disponible — {0}</value></data>
   <data name="St_UpdateMessage"><value>Une nouvelle version de FluentCleaner est disponible au téléchargement.</value></data>
   <data name="St_UpToDate"><value>Vous êtes à jour</value></data>
@@ -269,7 +269,7 @@
        AI EXPLAINER
   ============================================================ -->
   <data name="AI_NoKey"><value>Aucune clé API n'est configurée. Accédez à Paramètres → Explications IA pour ajouter votre clé API Groq (gratuite sur console.groq.com).</value></data>
-  <data name="AI_ApiError"><value>Groq API error: {0}</value></data>
+  <data name="AI_ApiError"><value>Erreur de l'API Groq : {0}</value></data>
   <data name="AI_NoResponse"><value>Aucune réponse reçue.</value></data>
   <data name="AI_NetworkError"><value>Ne sait pas joindre l'API Groq: {0}</value></data>
   <data name="AI_NoKeyShort"><value>Aucune clé API configurée — accédez à Paramètres → Explications IA.</value></data>
@@ -277,16 +277,16 @@
   <!-- ============================================================
        TERMINAL / CLI
   ============================================================ -->
-  <data name="TerminalPlaceholder.PlaceholderText"><value>nettoyer firefox  ·  analyser chrome  ·  aide</value></data>
+  <data name="TerminalPlaceholder.PlaceholderText"><value>clean firefox  ·  analyze chrome  ·  help</value></data>
   <data name="CLI_Welcome"><value>FluentCleaner Terminal en ligne.</value></data>
   <data name="CLI_Databases"><value>Bases de données: {0} active — {1} entrées détectées</value></data>
   <data name="CLI_HelpHint"><value>Taper 'help' pour les commandes.</value></data>
   <data name="CLI_Version"><value>  FluentCleaner {0}</value></data>
   <data name="CLI_UnknownCommand"><value>  Commande inconnue '{0}'. Taper 'help'.</value></data>
   <data name="CLI_NoDrives"><value>  Pas de disques trouvés.</value></data>
-  <data name="CLI_ThemeUsage"><value>  Utilisation: thème foncé | clair | système</value></data>
+  <data name="CLI_ThemeUsage"><value>  Utilisation: theme dark | light | system</value></data>
   <data name="CLI_ThemeSet"><value>  Thème défini sur '{0}'.</value></data>
-  <data name="CLI_BackdropUsage"><value>  Utilisation: arrière-plan mica | acrylic</value></data>
+  <data name="CLI_BackdropUsage"><value>  Utilisation: backdrop mica | acrylic</value></data>
   <data name="CLI_BackdropSet"><value>  Arrière-plan défini sur '{0}'.</value></data>
   <data name="CLI_NoMatch"><value>  Aucune entrée ne correspond '{0}'.</value></data>
   <data name="CLI_CleanEntry"><value>  {0}: {1} éléments · {2}</value></data>
