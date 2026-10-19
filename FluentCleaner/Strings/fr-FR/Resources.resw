@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <root>
   <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
   <resheader name="version"><value>2.0</value></resheader>
@@ -24,6 +24,7 @@
   <!-- Main Window — donation TeachingTip -->
   <data name="DonationBanner.Title"><value>Vous appréciez FluentCleaner?</value></data>
   <data name="DonationBanner.Subtitle"><value>Si cette appli vous fait gagner du temps,pensez à supporter son développement.</value></data>
+  <data name="Donation_OtherAmount"><value>Autre montant…</value></data>
   <data name="BtnDonatePayPal.Content"><value>PayPal</value></data>
   <data name="BtnDonateKoFi.Content"><value>Ko-fi</value></data>
   <data name="BtnDonateGitHub.Content"><value>Star sur GitHub</value></data>
@@ -44,7 +45,9 @@
   <data name="MenuAnalyzeEntry.Text"><value>Analyser</value></data>
   <data name="MenuCleanEntry.Text"><value>Nettoyer</value></data>
   <data name="MenuExplainEntry.Text"><value>Expliquer avec l'IA</value></data>
+  <data name="MenuShowSource.Text"><value>Montrer la source</value></data>
   <data name="LblAIDesc.Text"><value>Faites un clic droit sur n'importe quelle entrée de la page Nettoyeur → Expliquer avec l'IA. Propulsé par Groq (llama-3.3-70b) — gratuit, sans facturation. Rien n'est envoyé sans votre action explicite.</value></data>
+  <data name="LblAICustomHint.Text"><value>💡 Une fois votre clé enrégistrée, la page des nettoyeurs personnalisés débloque l'IA — décrivez ce que vous voulez nettoyer et une entrée Winapp2 ou un script PowerShell prêts à l'emploi sera généré.</value></data>
   <data name="ResultsHeader.Text"><value>Résultats</value></data>
   <data name="BtnBackToResults.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip"><value>Retour aux résultats</value></data>
   <data name="BtnCleanDetail.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip"><value>Effacer ces fichiers maintenant</value></data>
@@ -79,13 +82,29 @@
   <data name="DlgBrowsersTitle"><value>Navigateurs en fonctionnement</value></data>
   <data name="DlgBrowsersContinue"><value>Continuer malgré tout</value></data>
   <data name="DlgBrowsersCancel"><value>Annuler</value></data>
-  <data name="DlgBrowsersMessage"><value>Fermer ces programmes pour de meilleurs résultats:\n{0}\n\nLes navigateurs ouverts bloquent les fichiers de cache et d'historique — ils ne seront pas traités pendant le nettoyage.</value></data>
+  <data name="DlgBrowsersMessage"><value>Fermer ces programmes pour de meilleurs résultats:\n{0}\n\nles navigateurs ouverts bloquent les fichiers de cache et d'historique — ils ne seront pas traités pendant le nettoyage.</value></data>
   <data name="DlgWarningTitle"><value>Avertissement de nettoyage</value></data>
   <data name="DlgWarningContinue"><value>Continuer</value></data>
   <data name="DlgWarningCancel"><value>Annuler</value></data>
   <data name="DlgWarningMessage"><value>Les entrées Winapp2 sélectionnées comprennent les avertissements suivants:</value></data>
   <data name="DlgExplainThinking"><value>Réfléchis…</value></data>
   <data name="DlgExplainClose"><value>Fermé</value></data>
+  <data name="DlgSourceCopy"><value>Copier</value></data>
+  <data name="DlgSourceReport"><value>Entrée du rapport</value></data>
+  <data name="DlgSourceDryRun"><value>Essai à blanc</value></data>
+  <data name="RuleLabTitle"><value>Labo des règles — {0}</value></data>
+  <data name="DlgSourceHint"><value>Modifier les règles, puis faites un test à blanc pour prévusualiser les résultats.</value></data>
+  <data name="DlgSourceScanning"><value>Scanning…</value></data>
+  <data name="DlgSourceNoEntry"><value>Pas d'entrée valide — nécessite un Detect et un FileKey.</value></data>
+  <data name="DlgSourceFound"><value>{0} fichiers · {1}</value></data>
+  <data name="DlgSourceMore"><value>… et {0} en plus</value></data>
+  <data name="DlgSourceError"><value>Echec de l'analyse: {0}</value></data>
+  <data name="DlgSourceCancel"><value>Annuler</value></data>
+  <data name="DlgSourceCancelled"><value>Annulé.</value></data>
+  <data name="DlgRestartTitle"><value>Redémmarage requis</value></data>
+  <data name="DlgRestartMessage"><value>FluentCleaner doit redémarrer pour appliquer les changements.</value></data>
+  <data name="DlgRestartNow"><value>Redémarrer maintenant</value></data>
+  <data name="DlgRestartLater"><value>Plus tard</value></data>
 
   <!-- ============================================================
        STATUS MESSAGES — CleanerPageViewModel (format strings)
@@ -124,32 +143,32 @@
   ============================================================ -->
   <data name="SettingsTitle.Text"><value>Paramètres</value></data>
   <!-- Settings Page — donation InfoBar -->
-  <data name="DonationBar.Title"><value>FluentCleaner devient open source.</value></data>
-  <data name="DonationBar.Message"><value>J'ai fait beaucoup de travail sur ce programme - si cela vous aide et que vous désirez me remercier, une donation m'aiderait beaucoup. ♥</value></data>
+  <data name="DonationBar.Title"><value>Aider FluentCleaner.</value></data>
+  <data name="DonationBar.Message"><value>Choisissez un montant et une devise pour Paypal ou supportez le projet sur Ko-fi. ♥</value></data>
   <data name="BtnDonate.Content"><value>Supporter le projet</value></data>
   <data name="MenuDonatePayPal.Text"><value>Donner via PayPal</value></data>
   <data name="MenuDonateKoFi.Text"><value>Donner via Ko-fi</value></data>
   <data name="SectionAppearance.Text"><value>Apparence</value></data>
-  <data name="LblTheme.Text"><value>Thème</value></data>
+  <data name="LblTheme.Text"><value>Theme</value></data>
   <data name="LblThemeDesc.Text"><value>Choisissez le look de FluentCleaner sur votre appareil.</value></data>
-  <data name="ThemeSystem.Content"><value>Valeur par défaut</value></data>
+  <data name="ThemeSystem.Content"><value>Valeurs par défaut</value></data>
   <data name="ThemeLight.Content"><value>Clair</value></data>
   <data name="ThemeDark.Content"><value>Foncé</value></data>
   <data name="LblLanguage.Text"><value>Langue</value></data>
   <data name="LblLanguageDesc.Text"><value>Modifier la langue d'affichage. Redémarrage nécessaire pour appliquer les modifications.</value></data>
   <data name="St_LangAuto"><value>Valeurs par défaut du système</value></data>
   <data name="SectionDatabase.Text"><value>Base de données</value></data>
-  <data name="LblDatabaseDesc.Text"><value>Choisissez quelles listes d'entrées sont chargées pour être nettoyées.</value></data>
+  <data name="LblDatabaseDesc.Text"><value>Choisissez quelles listes de d'entrées sont chargées pour être nettoyées.</value></data>
   <data name="LblWinapp2.Text"><value>Winapp2</value></data>
   <data name="BtnUpdateWinapp2.Content"><value>Mise à jour</value></data>
   <data name="LblWinapp3.Text"><value>Winapp3</value></data>
   <data name="LblWinapp3Tag.Text"><value>expérimental</value></data>
   <data name="LblWinapp3Desc.Text"><value>  —  entrées plus agressives, utiliser à vos propres risques.</value></data>
-  <data name="BtnDownloadWinapp3.Content"><value>Télécharger</value></data>
+  <data name="BtnDownloadWinapp3.Content"><value>Charger</value></data>
   <data name="BtnUpdateWinapp3.Content"><value>Mettre à jour</value></data>
   <data name="LblWinappx.Text"><value>Winappx</value></data>
   <data name="LblWinappxTag.Text"><value>logiciels inutiles</value></data>
-  <data name="LblWinappxDesc.Text"><value>  —  AppX / entrées de logiciels inutiles pour le terminal.</value></data>
+  <data name="LblWinappxDesc.Text"><value>  —  AppX / entrées de logiciels inutiles pour le nettoyage en ligne de commande.</value></data>
   <data name="BtnDownloadWinappx.Content"><value>Télécharger</value></data>
   <data name="BtnUpdateWinappx.Content"><value>Mettre à jour</value></data>
   <data name="TxtCustomPath.PlaceholderText"><value>Chemin de base de données personnalisé (.ini)</value></data>
@@ -158,18 +177,30 @@
   <data name="BtnRemovePath.[using:Microsoft.UI.Xaml.Controls]ToolTipService.ToolTip"><value>Enlever la base de données personnalisée</value></data>
   <data name="RestartBar.Title"><value>Redémmarage nécessaire</value></data>
   <data name="RestartBar.Message"><value>Veuillez redémarrer FluentCleaner pour charger la base de données mise à jour.</value></data>
-  <data name="SectionPostClean.Text"><value>Tâches Post-nettoyage</value></data>
+  <data name="SectionPostClean.Text"><value>Taches Post-nettoyage</value></data>
   <data name="LblPostCleanDesc.Text"><value>Une commande par ligne - se lance séquentiellement après chaque passe de nettoyage.</value></data>
   <data name="SectionExclusions.Text"><value>Exclusions globales</value></data>
   <data name="LblExclusionsDesc.Text"><value>Les chemins d'accès listés ici ne sont jamais nettoyés — cela remplace toutes les règles de la base de données.</value></data>
+  <data name="LnkProtectedPaths.Content"><value>Voir les chemins protégés</value></data>
+  <data name="DlgProtectedTitle"><value>Chemins protégés</value></data>
+  <data name="DlgProtectedDesc"><value>Ces éléments sont systématiquement ignorés, indépendamment de ce qu’indique la base de données. Ils contiennent des données relatives aux extensions de navigateur ; sans ces données, certaines applications (gestionnaires de mots de passe, bloqueurs de publicités) ne fonctionnent plus correctement.</value></data>
   <data name="SectionHistory.Text"><value>Historique</value></data>
   <data name="LblHistoryDesc.Text"><value>Suivez la quantité de déchets qui s’accumule au fil du temps.</value></data>
   <data name="LblCleanHistory.Text"><value>Nettoyer l'historique</value></data>
   <data name="BtnClearHistory.Content"><value>Effacer l'historique</value></data>
+  <data name="SectionScheduler.Text"><value>Nettoyage programmé</value></data>
+  <data name="LblSchedulerDesc.Text"><value>Exécute le même nettoyage que /AUTO via le Planificateur de tâches Windows. La tâche ne s’exécute que lorsque vous êtes connecté et ne nécessite pas de droits d’administrateur.</value></data>
+  <data name="SchedulerEnabled.Header"><value>Activer le nettoyage programmé</value></data>
+  <data name="SchedulerFrequency.Header"><value>Fréquence</value></data>
+  <data name="SchedulerTime.Header"><value>Temps</value></data>
+  <data name="SchedulerShutdown.Content"><value>Eteindre le PC à la fin</value></data>
+  <data name="SchedulerApply.Content"><value>Appliquer</value></data>
+  <data name="SchedulerOpen.Content"><value>Ouvrir le planificateur de tâches de Windows</value></data>
   <data name="SectionAI.Text"><value>Explications IA</value></data>
   <data name="LblAIOptIn.Text"><value>opt-in</value></data>
   <data name="LblAIPreview.Text"><value>previsualiser</value></data>
   <data name="BtnAIDiscussion.Content"><value>Qu'en pensez-vous ? Rejoignez la discussion ! →</value></data>
+  <data name="CboAIProvider.Header"><value>Fournisseur</value></data>
   <data name="BtnSaveApiKey.Content"><value>Sauver</value></data>
   <data name="BtnTestApiKey.Content"><value>Tester</value></data>
   <data name="BtnGetApiKey.Content"><value>Obtenir la clé</value></data>
@@ -200,7 +231,7 @@
   <data name="St_Downloaded"><value>{0} téléchargé — {1} KB</value></data>
   <data name="St_DownloadFailed"><value>Échec du téléchargement: {0}</value></data>
   <data name="St_FileInfoNotDownloaded"><value>Pas téléchargé</value></data>
-  <data name="St_FileInfo"><value>{0} entrées  •  {1} KB  •  {2}</value></data>
+  <data name="St_FileInfo"><value>{0} entr"es  •  {1} KB  •  {2}</value></data>
   <data name="St_UpdateAvailable"><value>Mise à jour disponible — {0}</value></data>
   <data name="St_UpdateMessage"><value>Une nouvelle version de FluentCleaner est disponible au téléchargement.</value></data>
   <data name="St_UpToDate"><value>Vous êtes à jour</value></data>
@@ -209,6 +240,17 @@
   <data name="St_MenuCheckUpdates"><value>Vérifier les mises à jour</value></data>
   <data name="St_ApiKeyMissing"><value>⚠ Saisissez d'abord une clé API.</value></data>
   <data name="St_ApiKeyTesting"><value>Teste…</value></data>
+  <data name="Scheduler_FreqDaily"><value>Tous les jours</value></data>
+  <data name="Scheduler_FreqWeekly"><value>Toutes les semaines(Lundi)</value></data>
+  <data name="Scheduler_FreqLogon"><value>Lors de la connexion</value></data>
+  <data name="Scheduler_StatusActive"><value>✓ La tâche planifiée est active</value></data>
+  <data name="Scheduler_StatusInactive"><value>✗ Non planifié</value></data>
+  <data name="Scheduler_Applying"><value>Applique…</value></data>
+  <data name="Scheduler_ErrorExecutablePath"><value>Impossible de déterminer le chemin d'accès à l'exécutable de FluentCleaner.</value></data>
+  <data name="Scheduler_ResultCreated"><value>Tâche planifiée créée.</value></data>
+  <data name="Scheduler_ResultNothingToRemove"><value>Rien à supprimer.</value></data>
+  <data name="Scheduler_ResultRemoved"><value>Tâche planifiée supprimée.</value></data>
+  <data name="Scheduler_ErrorSchtasks"><value>Le Planificateur de tâches Windows a échoué.</value></data>
   <data name="St_ExportSuccess"><value>Paramètres exportés vers{0}</value></data>
   <data name="St_ExportFailed"><value>Echec de l'export : {0}</value></data>
   <data name="St_ImportSuccess"><value>Paramètres importés depuis {0}</value></data>
@@ -222,6 +264,7 @@
   <data name="CustomEmptyHint2.Text"><value>Créez un nouveau nettoyeur — il apparaîtra ici automatiquement.</value></data>
   <data name="MenuEditEntry.Text"><value>Editer</value></data>
   <data name="MenuDeleteEntry.Text"><value>Effacer</value></data>
+  <data name="MenuTestEntry.Text"><value>Tester dans le labo des règles</value></data>
   <data name="MenuRunEntry.Text"><value>Lancer</value></data>
   <data name="BtnNewCleaner.Content"><value>+ Nouveau nettoyeur</value></data>
   <data name="BtnRunScript.Text"><value>Lancer</value></data>
@@ -261,6 +304,7 @@
   <data name="DlgNewCleanerGenerate.Content"><value>Générer</value></data>
   <data name="DlgNewCleanerGenerateBtn"><value>Générer</value></data>
   <data name="DlgNewCleanerContentLabel"><value>Contenu</value></data>
+  <data name="DlgNewCleanerTest"><value>Tester dans le labo des règles</value></data>
   <data name="DlgNewCleanerLoadTemplate.Content"><value>Charger le modèle</value></data>
   <data name="DlgNewCleanerTitleNew"><value>Nouveau nettoyeur personnalisé</value></data>
   <data name="DlgNewCleanerTitleEdit"><value>Editer — {0}</value></data>
@@ -270,7 +314,7 @@
        AI EXPLAINER
   ============================================================ -->
   <data name="AI_NoKey"><value>Aucune clé API n'est configurée. Accédez à Paramètres → Explications IA pour ajouter votre clé API Groq (gratuite sur console.groq.com).</value></data>
-  <data name="AI_ApiError"><value>Erreur de l'API Groq : {0}</value></data>
+  <data name="AI_ApiError"><value>Groq API error: {0}</value></data>
   <data name="AI_NoResponse"><value>Aucune réponse reçue.</value></data>
   <data name="AI_NetworkError"><value>Ne sait pas joindre l'API Groq: {0}</value></data>
   <data name="AI_NoKeyShort"><value>Aucune clé API configurée — accédez à Paramètres → Explications IA.</value></data>
@@ -278,16 +322,16 @@
   <!-- ============================================================
        TERMINAL / CLI
   ============================================================ -->
-  <data name="TerminalPlaceholder.PlaceholderText"><value>clean firefox  ·  analyze chrome  ·  help</value></data>
+  <data name="TerminalPlaceholder.PlaceholderText"><value>nettoyer firefox  ·  analyser chrome  ·  aide</value></data>
   <data name="CLI_Welcome"><value>FluentCleaner Terminal en ligne.</value></data>
   <data name="CLI_Databases"><value>Bases de données: {0} active — {1} entrées détectées</value></data>
   <data name="CLI_HelpHint"><value>Taper 'help' pour les commandes.</value></data>
   <data name="CLI_Version"><value>  FluentCleaner {0}</value></data>
   <data name="CLI_UnknownCommand"><value>  Commande inconnue '{0}'. Taper 'help'.</value></data>
   <data name="CLI_NoDrives"><value>  Pas de disques trouvés.</value></data>
-  <data name="CLI_ThemeUsage"><value>  Utilisation: theme dark | light | system</value></data>
+  <data name="CLI_ThemeUsage"><value>  Utilisation: thème foncé | clair | système</value></data>
   <data name="CLI_ThemeSet"><value>  Thème défini sur '{0}'.</value></data>
-  <data name="CLI_BackdropUsage"><value>  Utilisation: backdrop mica | acrylic</value></data>
+  <data name="CLI_BackdropUsage"><value>  Utilisation: arrière-plan mica | acrylic</value></data>
   <data name="CLI_BackdropSet"><value>  Arrière-plan défini sur '{0}'.</value></data>
   <data name="CLI_NoMatch"><value>  Aucune entrée ne correspond '{0}'.</value></data>
   <data name="CLI_CleanEntry"><value>  {0}: {1} éléments · {2}</value></data>
@@ -315,5 +359,32 @@
   <data name="CLI_AppxNothingRemoved"><value>  Rien n'a été enlevé.</value></data>
   <data name="CLI_AppxDisabled"><value>  La base de données Winappx est désactivée; activez-la dans les paramètres.</value></data>
   <data name="CLI_AppxNotFound"><value>  Winappx.ini non trouvé — Téléchargez-le dans les paramètres.</value></data>
+
+  <!-- Settings navigator / Cookie Manager -->
+  <data name="SettingsNavGeneral.Content"><value>Général</value></data>
+  <data name="SettingsNavCookies.Content"><value>Cookies</value></data>
+  <data name="SettingsNavExclusions.Content"><value>Exclusions</value></data>
+  <data name="SettingsNavTasks.Content"><value>Tâches post-nettoyage</value></data>
+  <data name="SettingsNavHistory.Content"><value>Historique</value></data>
+  <data name="SettingsNavAI.Content"><value>AI</value></data>
+  <data name="SettingsNavScheduler.Content"><value>Planificateur</value></data>
+  <data name="SettingsNavAbout.Content"><value>A propos</value></data>
+  <data name="Cookies_Title"><value>Cookies</value></data>
+  <data name="Cookies_Subtitle"><value>Choisissez les cookies de site web qui doivent être conservés après le nettoyage du navigateur</value></data>
+  <data name="Cookies_Available"><value>Cookies trouvés</value></data>
+  <data name="Cookies_Kept"><value>Cookies à garder</value></data>
+  <data name="Cookies_Search"><value>Chercher</value></data>
+  <data name="Cookies_Refresh"><value>Rafraîchir</value></data>
+  <data name="Cookies_Scanning"><value>Lecture des cookies du navigateur…</value></data>
+  <data name="Cookies_Status"><value>{0} sites web trouvés dans {1} profils de navigateurs.</value></data>
+  <data name="Cookies_StatusUnavailable"><value>{0} sites web trouvés dans {1} profils de navigateurs · {2} Indisponible. Fermez les navigateurs et actualisez.</value></data>
+  <data name="Cookies_DeleteUnavailable"><value>{0} Les profils de navigateur n’ont pas pu être modifiés. Fermez les navigateurs et réessayez.</value></data>
+  <data name="Cookies_MiKeep"><value>Garder</value></data>
+  <data name="Cookies_MiDelete"><value>Effacer</value></data>
+  <data name="Cookies_MiRemove"><value>Enlever</value></data>
+  <data name="Cookies_MiImport"><value>Importer...</value></data>
+  <data name="Cookies_MiExport"><value>Exporter...</value></data>
+  <data name="Cookies_TextFiles"><value>Fichiers texte</value></data>
+  <data name="Cleaning_CleanedCookies"><value>Nettoyés {0} cookies: {1}</value></data>
 
 </root>
